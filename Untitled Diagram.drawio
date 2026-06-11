@@ -1,0 +1,73 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="hS1uwPNxCNtHE5QS72fd">
+    <mxGraphModel dx="1372" dy="797" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="fb08KOdh1AkLZZ4BjOVR-1" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="inicio" vertex="1">
+          <mxGeometry height="80" width="120" x="370" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="fb08KOdh1AkLZZ4BjOVR-4" edge="1" parent="1" source="fb08KOdh1AkLZZ4BjOVR-8" style="endArrow=classic;html=1;rounded=0;exitX=0.377;exitY=1.033;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitPerimeter=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="425" y="280" as="sourcePoint" />
+            <mxPoint x="425" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fb08KOdh1AkLZZ4BjOVR-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="console log de nombre y edad de la persona" vertex="1">
+          <mxGeometry height="60" width="120" x="365" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="fb08KOdh1AkLZZ4BjOVR-8" parent="1" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" value="prompt nombre de persona" vertex="1">
+          <mxGeometry height="60" width="260" x="105" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="fb08KOdh1AkLZZ4BjOVR-10" edge="1" parent="1" source="fb08KOdh1AkLZZ4BjOVR-7" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="180" y="490" as="sourcePoint" />
+            <mxPoint x="425.5" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fb08KOdh1AkLZZ4BjOVR-11" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="fin" vertex="1">
+          <mxGeometry height="80" width="120" x="365" y="630" as="geometry" />
+        </mxCell>
+        <mxCell id="fb08KOdh1AkLZZ4BjOVR-12" parent="1" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" value="resultado = impresion" vertex="1">
+          <mxGeometry height="60" width="180" x="360" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="fb08KOdh1AkLZZ4BjOVR-14" edge="1" parent="1" source="fb08KOdh1AkLZZ4BjOVR-12" style="endArrow=classic;html=1;rounded=0;exitX=0.37;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitPerimeter=0;" target="fb08KOdh1AkLZZ4BjOVR-11" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="580" y="590" as="sourcePoint" />
+            <mxPoint x="580.5" y="660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fb08KOdh1AkLZZ4BjOVR-15" edge="1" parent="1" source="fb08KOdh1AkLZZ4BjOVR-18" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;" target="fb08KOdh1AkLZZ4BjOVR-16" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="650" y="210" as="sourcePoint" />
+            <mxPoint x="650" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fb08KOdh1AkLZZ4BjOVR-16" parent="1" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" value="prompt edad de persona" vertex="1">
+          <mxGeometry height="60" width="260" x="520" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="fb08KOdh1AkLZZ4BjOVR-17" edge="1" parent="1" source="fb08KOdh1AkLZZ4BjOVR-16" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="fb08KOdh1AkLZZ4BjOVR-7" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="710" y="390" as="sourcePoint" />
+            <mxPoint x="927" y="468" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fb08KOdh1AkLZZ4BjOVR-18" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="permitir prompts usuario" vertex="1">
+          <mxGeometry height="60" width="120" x="370" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="fb08KOdh1AkLZZ4BjOVR-19" edge="1" parent="1" source="fb08KOdh1AkLZZ4BjOVR-8" style="endArrow=classic;html=1;rounded=0;exitX=0.55;exitY=-0.017;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" target="fb08KOdh1AkLZZ4BjOVR-18" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="260" y="250" as="sourcePoint" />
+            <mxPoint x="310" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fb08KOdh1AkLZZ4BjOVR-20" edge="1" parent="1" source="fb08KOdh1AkLZZ4BjOVR-1" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="fb08KOdh1AkLZZ4BjOVR-18" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="400" y="430" as="sourcePoint" />
+            <mxPoint x="540" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
